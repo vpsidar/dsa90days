@@ -25,7 +25,7 @@
 // };
 
 // Optimise Solution
-var isPalindrome = function(x) {
+const isPalindrome = function(x) {
     if(x < 0) return false;
     let temp = x;
     let reversed = 0;
