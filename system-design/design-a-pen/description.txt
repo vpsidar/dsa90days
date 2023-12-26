@@ -1,0 +1,32 @@
+Design a pen?
+
+Any physical entity that can have write behaviour is a pen.
+Supporting type - gel pen , ball pen and fountain pen
+Gel and ball pen will have a refill , others will not have a refill , and refill will have ink.
+Different inks have diffrent colours.
+For every pen, need to store the brand, name and price.
+Pen can be either closed via cap or via click buttons.
+Often refills have diffrent nibs radius , do we have to store the radius of nibs?
+The fountain pen itself has nibs.
+
+Behaviour
+Pens should be able to write.
+We can close/open the pen.
+We should be able to refill pens.
+
+
+Question to be asked to interviewer ?
+1. What is the typical usecase of user interaction with pen is it only writing or anything else?
+2. 
+
+
+Apporach
+You can ask the interviewer in this manner.
+do think just about pen , consider to include the entities which are part of your pen, like refill, nib etc.
+refill - verd (as entity)
+refill - noun (as behaviour)
+
+
+
+
+
