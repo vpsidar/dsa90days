@@ -1,0 +1,3 @@
+Design a tic tac toe game 
+
+- How to apporach this kind of question in general
