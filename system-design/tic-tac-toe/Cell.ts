@@ -3,7 +3,7 @@ enum CellState {
     EMPTY,
     BLOCKED
 }
-class Cell {
+export class Cell {
     row:number
     col:number
     cellState:CellState = CellState.EMPTY;

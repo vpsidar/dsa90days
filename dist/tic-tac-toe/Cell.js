@@ -1,4 +1,6 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Cell = void 0;
 var CellState;
 (function (CellState) {
     CellState[CellState["FILLED"] = 0] = "FILLED";
@@ -15,3 +17,4 @@ class Cell {
         this.cellState = state;
     }
 }
+exports.Cell = Cell;

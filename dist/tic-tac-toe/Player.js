@@ -1,4 +1,6 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Player = exports.PlayerType = void 0;
 var BotDifficultyLevel;
 (function (BotDifficultyLevel) {
     BotDifficultyLevel[BotDifficultyLevel["EASY"] = 0] = "EASY";
@@ -9,7 +11,7 @@ var PlayerType;
 (function (PlayerType) {
     PlayerType[PlayerType["HUMAN"] = 0] = "HUMAN";
     PlayerType[PlayerType["BOT"] = 1] = "BOT";
-})(PlayerType || (PlayerType = {}));
+})(PlayerType || (exports.PlayerType = PlayerType = {}));
 class Player {
     constructor(name, playerType) {
         this.symbol = '';
@@ -20,6 +22,7 @@ class Player {
         this.symbol = symbol;
     }
 }
+exports.Player = Player;
 class Bot extends Player {
     constructor(difficultyLevel) {
         super('BOT', PlayerType.BOT);

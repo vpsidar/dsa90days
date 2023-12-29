@@ -3,11 +3,11 @@ enum BotDifficultyLevel {
     MEDIUM,
     HARD
 }
-enum PlayerType {
+export enum PlayerType {
     HUMAN,
     BOT
 }
-class Player {
+export class Player {
     private name:string;
     private symbol:string = '';
     private playerType:PlayerType;
